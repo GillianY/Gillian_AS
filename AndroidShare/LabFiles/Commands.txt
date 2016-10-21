@@ -1,0 +1,13 @@
+select * from Users;
+select * from Users where ID > 2;
+select * from Users where Dept = 'Sales';
+select * from Users where Dept = 'Sales' ORDER BY ID ASC;
+select * from Users where Dept = 'Sales' ORDER BY ID DESC;
+
+insert into Users (name,dept) Values('John','NewDept');
+
+
+update Users set Dept = 'XDept' Where Dept = 'NewDept';
+
+delete from Users where ID > 7;
+delete from Users where Dept = 'XDept' ;

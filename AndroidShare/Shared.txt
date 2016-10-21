@@ -1,0 +1,4 @@
+C:\Users\Administrator\AppData\Local\Android\sdk\platform-tools
+
+
+https://developer.android.com/about/versions/marshmallow/android-6.0-changes.html#boringSSL

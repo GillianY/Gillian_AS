@@ -1,0 +1,35 @@
+﻿5. Genymotion TroubleShooting
+   Android Studio Font Size Setting.
+   
+
+6. Android 簡介
+http://zh.wikipedia.org/zh-tw/Android
+
+
+7. Android Project Structure
+
+
+http://stackoverflow.com/questions/17324849/android-studio-gradle-build-speed-up
+
+https://www.iconfinder.com/
+
+8. Chap03 Layouts
+- LinearLayout: Orientation,Weight,Nested Layout
+- LinearLayout: Gravity
+- RelativeLayout
+- Android計量單位:
+dp:圖大小
+sp:字大小
+
+C:\AndroidStudioProjects\M04_Event\app\build\intermediates\classes\debug\com\uuu\tw\m04_event
+
+9. Lab
+-ImageView
+-Switch setOnCheckedChangeListener
+-ToggleButton
+
+
+ 
+
+
+

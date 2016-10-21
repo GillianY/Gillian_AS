@@ -1,0 +1,4 @@
+﻿1. Review Custom_Adapter Project(Demo Code)
+2. 專題題目資料整理
+3. M28_CustomAdapter 加入一個可以打電話的ImageButton
+4. 完成 Http_Get JSON 解析功能,並用ListView取代TextView

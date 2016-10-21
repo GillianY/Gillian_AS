@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetWeatherResponse xmlns="http://www.webserviceX.NET">
+         <GetWeatherResult><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<CurrentWeather>
+  <Location>Sungshan / Taipei, Taiwan (RCSS) 25-04N 121-33E</Location>
+  <Time>Sep 07, 2013 - 08:00 PM EDT / 2013.09.08 0000 UTC</Time>
+  <Wind> from the E (100 degrees) at 12 MPH (10 KT):0</Wind>
+  <Visibility> greater than 7 mile(s):0</Visibility>
+  <SkyConditions> mostly clear</SkyConditions>
+  <Temperature> 82 F (28 C)</Temperature>
+  <DewPoint> 69 F (21 C)</DewPoint>
+  <RelativeHumidity> 65%</RelativeHumidity>
+  <Pressure> 29.97 in. Hg (1015 hPa)</Pressure>
+  <Status>Success</Status>
+</CurrentWeather>]]></GetWeatherResult>
+      </GetWeatherResponse>
+   </soap:Body>
+</soap:Envelope>

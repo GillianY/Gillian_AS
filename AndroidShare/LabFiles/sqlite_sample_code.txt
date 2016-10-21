@@ -1,0 +1,56 @@
+private static final String DB_NAME = "users.db";
+	private static final String TAG = "SQLITE";
+	private Context ctx;
+
+private void copyDatabase(File dbFile) throws IOException {
+        InputStream is = ctx.getAssets().open(DB_NAME);
+        OutputStream os = new FileOutputStream(dbFile);
+
+        byte[] buffer = new byte[1024];
+        int read = is.read(buffer);
+        while (read != -1) {
+            os.write(buffer,0 ,read);
+            read = is.read(buffer);
+        }
+        os.flush();
+        os.close();
+        is.close();
+    }
+	
+	public SQLiteDatabase openReadDatabase() {
+        File dbFile = ctx.getDatabasePath(DB_NAME);
+ 
+        if (!dbFile.exists()) {
+            try {
+            	File parentDir = new File(dbFile.getParent());
+            	if(!parentDir.exists()){
+            		parentDir.mkdir();
+            	}
+                copyDatabase(dbFile);
+            } catch (IOException e) {
+                throw new RuntimeException("Error creating source database", e);
+            }
+        }
+ 
+        return SQLiteDatabase.openDatabase(dbFile.getPath(), null, SQLiteDatabase.OPEN_READONLY);
+    }
+	
+	public SQLiteDatabase openWriteDatabase() {
+        File dbFile = ctx.getDatabasePath(DB_NAME);
+ 
+        if (!dbFile.exists()) {
+            try {
+            	File parentDir = new File(dbFile.getParent());
+            	if(!parentDir.exists()){
+            		parentDir.mkdir();
+            	}
+                copyDatabase(dbFile);
+            } catch (IOException e) {
+                throw new RuntimeException("Error creating source database", e);
+            }
+        }
+ 
+        return SQLiteDatabase.openDatabase(dbFile.getPath(), null, SQLiteDatabase.OPEN_READWRITE);
+    }
+	
+

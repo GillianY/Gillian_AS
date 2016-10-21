@@ -1,0 +1,11 @@
+﻿1. Self Study : 拍照的功能
+　　http://developer.android.com/guide/topics/media/camera.html
+
+2. Review 4-3
+
+3. 專題準備(Day 6 報告)
+   - 自己想做的(iOS or Android),簡述
+   - 目前有看到的App,成功案例
+   	- 美工
+	- 操作
+

@@ -1,0 +1,49 @@
+﻿1. IDE
+Netbeans
+https://netbeans.org/
+
+Eclipse
+http://www.eclipse.org/downloads/?
+
+2. 
+
+URL : Eclipse簡介與教學
+http://www.cc.ntu.edu.tw/chinese/epaper/0020/20120320_2003.html
+
+- create project
+
+- create a class with main method -> sysout ALT + "/"
+
+- Window -> Preferences -> General -> Workspace -> text file encoding -> Other -> UTF-8
+
+- 字體設定 Window -> Preferences -> General -> Appearance -> Colors and Fonts -> Basic -> ....
+
+- Window -> Perspective -> Reset Perspective
+
+- // TODO
+- Window -> Show View - Tasks
+
+- Source -> Organized imports
+
+- Source -> Generate Getters/Setters/Contructors
+
+- Project -> Export -> Generate Java Doc
+
+- Project Export/Import 
+
+
+3. Final Code Exercises
+
+- Final Code Data Analysis
+
+- Final Code Flow Analysis
+
+
+4. Android 超快模擬器
+- http://max-everyday.blogspot.tw/2013/07/genymotion-android.html
+
+https://www.genymotion.com
+https://cloud.genymotion.com/page/launchpad/download/
+https://www.virtualbox.org/
+
+
