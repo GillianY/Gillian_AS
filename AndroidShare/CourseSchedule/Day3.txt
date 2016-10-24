@@ -1,0 +1,34 @@
+﻿9. Lab
+-ImageView
+-Switch setOnCheckedChangeListene
+
+
+https://developer.android.com/guide/topics/ui/controls.html
+
+
+10 APK
+
+https://en.wikipedia.org/wiki/Android_application_package
+
+C:\AndroidStudioProjects\M05_LightBulb\app\build\outputs\apk
+
+Signed APK
+C:\AndroidStudioProjects\M05_LightBulb\app
+
+11. 開發者帳號
+https://play.google.com/apps/publish/signup/
+
+12. Locales Demo(java.util)
+
+13. Chap5-1-4 Internationalization
+http://jdev.tw/blog/3685/android-studio-i18n-values
+
+14. In activity : getString(int)(Chap5-1-6)
+
+15. 
+Chap3-4 Orientation
+Chap4-1,4-2 Log 
+
+16. 
+Chap3-2 Lifecycle
+
