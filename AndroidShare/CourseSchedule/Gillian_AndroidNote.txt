@@ -1,0 +1,27 @@
+
+1. Camera 
+https://developer.android.com/guide/topics/media/camera.html
+http://wiki.jikexueyuan.com/project/android-actual-combat-skills/android-hardware-camera2-operating-guide.html
+https://inducesmile.com/android/android-camera2-api-example-tutorial/
+https://github.com/googlesamples/android-Camera2Basic
+
+
+(1)declare the camera requirement in your manifest.
+         the child of <application>:
+ 	<uses-permission android:name="android.permission.CAMERA" />
+        <uses-permission android:name="android.permission.RECORD_AUDIO" />
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-feature android:name="android.hardware.camera2.full" />
+        <uses-feature android:name="android.hardware.location.gps" />
+
+(2)Customized Camera 
+	android.hardware.camera2 API or camera Intent. 
+	An intent action type of MediaStore.ACTION_IMAGE_CAPTURE or MediaStore.ACTION_VIDEO_CAPTURE
+(3)Storage 	
+
+
+
+2. user permission :
+http://blog.yam.com/jackiefu/article/37082465
+
+3.
