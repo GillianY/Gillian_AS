@@ -1,0 +1,18 @@
+﻿19. Activity / Intent (Chap3-3)
+
+    Activity Communication 
+    Type 1 : startActivity(...)
+    Type 2 : startActivityForResult(...)
+
+
+Demo : Speech Recognition (Activity Back)   
+
+
+20. Toast(Chap4-3)
+
+
+
+
+
+
+

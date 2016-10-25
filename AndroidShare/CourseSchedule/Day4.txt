@@ -1,0 +1,21 @@
+﻿
+17.
+Thread
+Update UI (Chap10-5)
+
+18. Timer/TimerTask
+
+19. Activity / Intent (Chap3-3)
+
+    Activity Communication 
+    Type 1 : startActivity(...)
+    Type 2 : startActivityForResult(...)
+
+
+
+
+
+
+
+
+
