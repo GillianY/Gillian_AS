@@ -1,0 +1,13 @@
+﻿1. Self Study : 拍照的功能
+　　http://developer.android.com/guide/topics/media/camera.html
+
+2. Review 4-3
+
+3. 專題題目資料整理(UI Flow/ Activity)
+
+4. https://www.youtube.com/watch?v=Hl0G-MrKc0I&list=PLF543F8C1C1F345CA
+
+https://www.youtube.com/watch?v=13VXCB5gGgk
+
+https://www.youtube.com/watch?v=Ap0w3PgSK7g
+
