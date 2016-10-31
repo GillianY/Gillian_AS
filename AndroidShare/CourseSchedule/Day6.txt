@@ -1,0 +1,15 @@
+﻿22. AlertDialog(Chap6-4)
+
+23. Style抽離 (Chap5-4)
+
+24. Java I/O
+
+Videos:
+網路未來五千天
+http://www.youtube.com/watch?v=eCHkjFJ4hJ4
+
+第六感驚人的潛力PranavMistry(中文）
+http://www.youtube.com/watch?v=qC3H3JOtvSs
+
+Microsoft Office Labs Vision 2019
+http://www.youtube.com/watch?v=Zp-_oUwdSeY
