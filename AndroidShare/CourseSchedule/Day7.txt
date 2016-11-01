@@ -2,17 +2,17 @@
 	JSON 
 	JSON Parsing
 
-27. Animation(Ch5-5)
+26. Animation(Ch5-5)
 https://developer.android.com/guide/topics/resources/animation-resource.html
 http://stackoverflow.com/questions/29227181/how-to-use-animation-list-in-android-studio
 
-28. Service(Ch4-4-1) http://developer.android.com/guide/topics/manifest/service-element.html
+27. Service(Ch4-4-1) http://developer.android.com/guide/topics/manifest/service-element.html
 Play MP3
 
 http://blog.csdn.net/guolin_blog/article/details/11952435
 http://rainbow702.iteye.com/blog/1144521
 
-29. Broadcast Receiver (Ch11-4-4)
+28. Broadcast Receiver (Ch11-4-4)
 
 	
 

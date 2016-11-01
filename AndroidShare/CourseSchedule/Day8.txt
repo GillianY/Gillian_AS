@@ -1,0 +1,92 @@
+29. Self Study : Menu/SubMenu/ContextMenu (Ch6-2)
+
+30. Spinner(Ch7-1-8)
+
+31. ListView(Ch7-1-1)
+
+	inflater :  http://blog.csdn.net/guolin_blog/article/details/12921889
+
+	getView :http://stackoverflow.com/questions/10120119/how-does-the-getview-method-work-when-creating-your-own-custom-adapter	
+		https://developer.android.com/reference/android/widget/Adapter.html
+
+32. Network communication : Http Get
+
+33. Network communication : Http Post
+
+
+data :
+[
+    {
+        "id": "1",
+        "cate_name": "iPod touch"
+    },
+    {
+        "id": "2",
+        "cate_name": "iPod nano"
+    },
+    {
+        "id": "3",
+        "cate_name": "iPod shuffle"
+    },
+    {
+        "id": "4",
+        "cate_name": "iPhone"
+    },
+    {
+        "id": "5",
+        "cate_name": "iPad"
+    },
+    {
+        "id": "6",
+        "cate_name": "Apple‘≠èS≈‰º˛"
+    }
+]
+
+
+
+
+
+
+
+M22:
+a.
+
+The getParent method returns a ViewParent, not a View. You need to cast the first call to getParent() also:
+
+RelativeLayout r = (RelativeLayout) ((ViewGroup) this.getParent()).getParent();
+As stated in the comments by the OP, this is causing a NPE. To debug, split this up into multiple parts:
+
+ViewParent parent = this.getParent();
+RelativeLayout r;
+if (parent == null) {
+    Log.d("TEST", "this.getParent() is null");
+}
+else {
+    if (parent instanceof ViewGroup) {
+        ViewParent grandparent = ((ViewGroup) parent).getParent();
+        if (grandparent == null) {
+            Log.d("TEST", "((ViewGroup) this.getParent()).getParent() is null");
+        }
+        else {
+            if (parent instanceof RelativeLayout) {
+                r = (RelativeLayout) grandparent;
+            }
+            else {
+                Log.d("TEST", "((ViewGroup) this.getParent()).getParent() is not a RelativeLayout");
+            }
+        }
+    }
+    else {
+        Log.d("TEST", "this.getParent() is not a ViewGroup");
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
