@@ -1,0 +1,7 @@
+image.setDrawingCacheEnabled(true);
+				image.buildDrawingCache();
+				Bitmap bm = image.getDrawingCache();
+				ByteArrayOutputStream bao = new ByteArrayOutputStream();
+				bm.compress(CompressFormat.PNG, 100, bao);
+				byte[] ba = bao.toByteArray();
+				

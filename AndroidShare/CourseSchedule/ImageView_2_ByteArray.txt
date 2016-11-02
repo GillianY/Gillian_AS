@@ -1,0 +1,16 @@
+1.  byte[] to ImageView
+ 
+byte[] blob = currentData.getPhoto();
+        Bitmap bmp= BitmapFactory.decodeByteArray(blob,0,blob.length);
+        photo.setImageBitmap(bmp);
+
+
+
+2.  ImageView to byte[] 
+image.setDrawingCacheEnabled(true);
+				image.buildDrawingCache();
+				Bitmap bm = image.getDrawingCache();
+				ByteArrayOutputStream bao = new ByteArrayOutputStream();
+				bm.compress(CompressFormat.PNG, 100, bao);
+				byte[] ba = bao.toByteArray();
+				

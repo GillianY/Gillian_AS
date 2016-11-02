@@ -1,1 +1,18 @@
 34  Sqlite(Ch09-02)
+
+DateTime formate 
+http://pro.ctlok.com/2010/08/sqlite-date-time.html
+ now •þÄÃµ½Ïµ½y¬FÔÚ•rég¡£
+YYYY-MM-DD
+YYYY-MM-DD HH:MM
+YYYY-MM-DD HH:MM:SS
+YYYY-MM-DD HH:MM:SS.SSS
+YYYY-MM-DDTHH:MM
+YYYY-MM-DDTHH:MM:SS
+YYYY-MM-DDTHH:MM:SS.SSS
+HH:MM
+HH:MM:SS
+HH:MM:SS.SSS
+now
+
+

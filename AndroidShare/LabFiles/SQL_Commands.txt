@@ -1,0 +1,14 @@
+SELECT * FROM Pub
+SELECT name FROM Pub
+SELECT * FROM Pub WHERE name = 'PizzaHut'
+SELECT * FROM Pub WHERE name = 'PizzaHut' AND sid > 10
+SELECT * FROM Pub WHERE name like '%t%'
+SELECT * FROM Pub ORDER BY sid DESC
+SELECT * FROM Pub WHERE sid > 1
+
+INSERT INTO Pub(name,address,tel) VALUES('Tasty1','Tainan','66666666')
+
+UPDATE Pub SET name = 'KKK' WHERE sid >= 6
+UPDATE Pub SET name = 'KKK', address = 'OOO' WHERE sid >= 6
+
+DELETE FROM Pub WHERE sid >= 6
