@@ -16,3 +16,7 @@ HH:MM:SS.SSS
 now
 
 
+select * from pub where StartDate < '2016-01-01'
+insert into pub(name,StartDate,price) values ('renacense','now',800) 
+
+
